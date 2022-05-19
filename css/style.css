@@ -1,0 +1,11 @@
+/* HEADER */
+header {
+  background-color: lightskyblue;
+  height: 100px;
+  color: white;
+}
+.header_card {
+  height: 100%;
+  /* Test */
+  background-color: purple;
+}
