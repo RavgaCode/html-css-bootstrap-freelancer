@@ -32,3 +32,13 @@ header {
   background-color: blueviolet;
   border: 2px dotted red;
 }
+/* About */
+.about {
+  background-color: bisque;
+}
+.about_card {
+  margin: 1rem 0;
+  /* Test */
+  background-color: antiquewhite;
+  border: 1px dotted red;
+}
