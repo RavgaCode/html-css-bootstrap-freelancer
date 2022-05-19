@@ -3,9 +3,23 @@ header {
   background-color: lightskyblue;
   height: 100px;
   color: white;
+  /* display: flex;
+  align-items: center; */
 }
 .header_card {
   height: 100%;
   /* Test */
   background-color: purple;
+}
+
+/* MAIN */
+
+/* Info Personali */
+.info {
+  /* Test */
+  height: 300px;
+  background-color: lightcoral;
+}
+.info_card {
+  color: white;
 }
