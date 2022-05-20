@@ -10,6 +10,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Bootstrap Freelance</title>
   </head>
@@ -37,19 +44,23 @@
     <!-- MAIN -->
     <main>
       <!-- Info Personali -->
-      <section class="info">
-        <div class="container h-100">
+      <section class="info bg_color">
+        <div class="container">
           <div class="row justify-content-center">
             <div class="col-10 justify-content-center">
               <div class="info_card d-flex flex-column text-center">
-                <p>Immagine</p>
-                <p>Nome e Cognome</p>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Accusamus quod quas aut, omnis quo delectus placeat quidem
-                  doloremque, cum tenetur deserunt consectetur laudantium nisi
-                  blanditiis rerum facilis accusantium ut est.
-                </p>
+                <div class="img_container">
+                  <img
+                    src="img/avatar.svg"
+                    class="img-fluid"
+                    alt="Immagine profilo"
+                  />
+                </div>
+                <p>START BOOTSTRAP</p>
+                <div class="star">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
               </div>
             </div>
           </div>
@@ -139,7 +150,7 @@
         </div>
       </section>
       <!-- About -->
-      <section class="about">
+      <section class="about bg_color">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 text-center">

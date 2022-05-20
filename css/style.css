@@ -1,10 +1,32 @@
+/* VARIABLES */
+:root {
+  --main-bg-color: #1abc9c;
+  color: white;
+}
+
+/* COMMON */
+.bg_color {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+.star:before,
+.star:after {
+  content: "";
+  background-color: white;
+  color: white;
+  border-radius: 20rem;
+  height: 0.2rem;
+  width: 30%;
+  max-width: 160px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
 /* HEADER */
 header {
   background-color: lightskyblue;
   height: 100px;
   color: white;
-  /* display: flex;
-  align-items: center; */
 }
 .header_card {
   height: 100%;
@@ -14,13 +36,9 @@ header {
 /* MAIN */
 
 /* Info Personali */
-.info {
-  /* Test */
-  height: 300px;
-  background-color: lightcoral;
-}
-.info_card {
-  color: white;
+.img_container {
+  max-width: 200px;
+  height: auto;
 }
 /* Portfolio */
 .portfolio {
@@ -32,9 +50,6 @@ header {
   border: 2px dotted red;
 }
 /* About */
-.about {
-  background-color: bisque;
-}
 .about_card {
   margin: 1rem 0;
   /* Test */
