@@ -5,15 +5,28 @@
 }
 
 /* COMMON */
-.bg_color {
+.bg_color_main {
   background-color: var(--main-bg-color);
   color: white;
 }
-.star:before,
-.star:after {
+.star_black:before,
+.star_black:after {
   content: "";
-  background-color: white;
+  color: black;
+  background-color: black;
+  border-radius: 20rem;
+  height: 0.2rem;
+  width: 30%;
+  max-width: 160px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.star_white:before,
+.star_white:after {
+  content: "";
   color: white;
+  background-color: white;
   border-radius: 20rem;
   height: 0.2rem;
   width: 30%;
@@ -36,25 +49,30 @@ header {
 /* MAIN */
 
 /* Info Personali */
-.img_container {
+.info {
+  background-color: #1abc9c;
+  color: white;
+}
+.info img {
   max-width: 200px;
-  height: auto;
 }
 /* Portfolio */
 .portfolio {
-  background-color: aqua;
+  color: black;
 }
 .port_card {
+  width: 20%;
   margin: 1rem 0;
   background-color: blueviolet;
   border: 2px dotted red;
 }
 /* About */
+.about {
+  background-color: #1abc9c;
+  color: white;
+}
 .about_card {
   margin: 1rem 0;
-  /* Test */
-  background-color: antiquewhite;
-  border: 1px dotted red;
 }
 /* Contact Me */
 .contact {
